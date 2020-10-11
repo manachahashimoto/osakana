@@ -1,0 +1,251 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+section{
+    width: 100%;
+    overflow: hidden;
+}
+
+#header{
+    width: 100%;
+    overflow: hidden;
+    margin: 10px;
+}
+
+.logo{
+    width: 100%;
+    background-size: cover;
+    top: 0;
+    left: 0;
+    margin: 0;
+    border-style: none;
+    overflow: hidden;
+}
+
+nav a{
+    text-decoration: none;
+    overflow: hidden;
+    display: block;
+    margin: 5px auto;
+    text-align: center;
+    color: #635B55; 
+}
+
+#header ul li{
+    list-style-type: none;
+    float: left;
+    color: #635B55;
+    margin: 5px 175px;
+}
+
+.wrapper{
+    display: block;
+}
+
+#message{
+    background-color: #FBF9F8;
+    margin: 100px auto;
+    align-content: center;
+}
+
+#message h2{
+    font-family: "Hiragino Kakugothic";
+    font-weight: normal;
+    font-size: 60px;
+    text-align: center;
+    margin: 40px auto 30px;
+    color: #635B55;
+}
+
+#message p{
+    font-size: 35px;
+    text-align: center;
+    margin: 50px auto 40px;
+    color: #635B55;
+}
+
+#trivia{
+    text-align: center;
+    margin-bottom: 100px;
+    margin-top: 40px;
+}
+
+#trivia h1{
+    color: #635B55;
+    font-size: 90px;
+    font-family: "Avenir";
+    font-weight: normal;
+    margin: 0px auto;
+}
+
+#trivia h2{
+    color: #635B55;
+    font-size: 30px;
+    font-family: "Hiragino Kakugothic";
+    font-weight: lighter;
+}
+
+#trivia p{
+    color: #635B55;
+    font-family: "Hiragino Kakugothic";
+    font-size: 30px;
+    font-weight: normal;
+    margin-top: 40px;
+    margin-bottom: 70px;
+}
+
+#recipes{
+    margin-bottom: 100px;
+}
+
+#recipes h1{
+    color: #635B55;
+    font-size: 90px;
+    font-family: "Avenir";
+    font-weight: normal;
+    margin: 0px auto;
+    text-align: center;
+}
+
+#recipes h2{
+    color: #635B55;
+    font-size: 30px;
+    font-family: "Hiragino Kakugothic";
+    font-weight: lighter;
+    text-align: center;
+}
+
+#recipes h3{
+    color: #635B55;
+    font-size: 55px;
+    font-family: "Avenir";
+    font-weight: 400;
+}
+
+#recipes h4{
+    color: #D65151;
+    font-family: "Hiragino Kakugothic";
+    font-size: 20px;
+}
+
+#recipes p{
+    color: #635B55;
+    font-family: "Hiragino Kakugothic";
+    font-size: 30px;
+    font-weight: normal;
+    margin-top: 40px;
+    margin-bottom: 70px;
+    text-align: center;
+}
+
+.recipebox p{
+    color: #635B55;
+    font-family: "Hiragino Kakugothic";
+    font-size: 23px !important;
+    font-weight: normal !important;
+    text-align: left !important;
+}
+
+.recipebox{
+    background-color: #FBF9F8;
+    width: 1184px;
+    margin: 0 auto 40px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.leftbox{
+    width: 374px;
+    margin: auto 70px;
+}
+
+.rightbox{
+    width: 374px;
+    margin: auto 70px;
+}
+
+.gotorecipe a{
+    display: block;
+    text-decoration: none;
+    color: #FFFFFF;
+    background-color: #F5AC67;
+    font-size: 30px;
+    width: 374px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#recommended{
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+#recommended h1{
+    color: #635B55;
+    font-size: 90px;
+    font-family: "Avenir";
+    font-weight: normal;
+    margin: 0px auto;
+}
+
+#recommended h2{
+    color: #635B55;
+    font-size: 30px;
+    font-family: "Hiragino Kakugothic";
+    font-weight: lighter;
+}
+
+#recommended p{
+    color: #635B55;
+    font-family: "Hiragino Kakugothic";
+    font-size: 30px;
+    font-weight: normal;
+    margin-top: 40px;
+}
+
+.shop a{
+    display: block;
+    text-decoration: none;
+    color: #F5AC67;
+    background-color: #ffffff;
+    border-style: solid;
+    border-color: #F5AC67;
+    border-width: 3px;
+    font-size: 20px;
+    width: 326px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.sns{
+    text-align: center;
+    background-color: #FBF9F8;
+}
+
+.sns p{
+    color: #635B55;
+    font-family: "Hiragino Kakugothic";
+    font-size: 30px;
+    margin-top: 25px;
+    margin-bottom: 30px
+}
+
+.sns img{
+    margin-right: 40px;
+    margin-left: 40px;
+    margin-bottom: 20px;
+}
+
+footer{
+    background-color: #F5AC67;
+    text-align: center;
+}
+
+footer p{
+    color: #635B55;
+    font-family: "Avenir";
+    font-size: 32px;
+    font-weight: 300;
+}
