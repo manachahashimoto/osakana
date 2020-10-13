@@ -8,36 +8,69 @@ section{
     overflow: hidden;
 }
 
-#header{
-    width: 100%;
-    overflow: hidden;
-    margin: 10px;
+.wrapper{
+    display: block;
 }
 
-.logo{
-    width: 100%;
+#header h1{
+    color: #fff;
+    font-size: 150px;
+    font-family: "Colonna MT";
+    font-weight: normal;
+    margin: 30px auto;
+}
+
+#header p{
+    color: #fff;
+    margin-bottom: 80px;
+    font-family: "Hiragino Gothic";
+    font-size: 30px;
+}
+
+#header{
+    background-image: url(images/main.JPG);
     background-size: cover;
-    top: 0;
-    left: 0;
-    margin: 0;
     border-style: none;
     overflow: hidden;
+    width: 100%;
+    text-align: center;
+}
+
+
+.logo img{
+    width: 400px;
+    margin: 100px auto;
+}
+
+#nav ul{
+    display: flex;
+    justify-content: center;
+    flex-wrap: nowrap;
 }
 
 nav a{
     text-decoration: none;
     overflow: hidden;
     display: block;
-    margin: 5px auto;
+    align-items: center;
+    margin: 10px auto;
     text-align: center;
     color: #635B55; 
+    transition-duration: 0.5s;
 }
 
-#header ul li{
+nav a:hover{
+    transform: scale(1.2);
+    transition-duration: 0.5s; 
+    border-bottom-style: solid;
+    border-width: 1px;
+    border-color: #635B55;
+}
+
+#nav ul li{
     list-style-type: none;
-    float: left;
     color: #635B55;
-    margin: 5px 175px;
+    margin: 20px 170px; 
 }
 
 .wrapper{
@@ -46,7 +79,7 @@ nav a{
 
 #message{
     background-color: #FBF9F8;
-    margin: 100px auto;
+    margin: 100px auto 130px;
     align-content: center;
 }
 
@@ -68,8 +101,8 @@ nav a{
 
 #trivia{
     text-align: center;
-    margin-bottom: 100px;
-    margin-top: 40px;
+    margin-bottom: 150px;
+    margin-top: 60px;
 }
 
 #trivia h1{
@@ -136,7 +169,7 @@ nav a{
     font-size: 30px;
     font-weight: normal;
     margin-top: 40px;
-    margin-bottom: 70px;
+    margin-bottom: 100px;
     text-align: center;
 }
 
@@ -146,14 +179,21 @@ nav a{
     font-size: 23px !important;
     font-weight: normal !important;
     text-align: left !important;
+    margin-bottom: 50px !important;
 }
 
 .recipebox{
     background-color: #FBF9F8;
     width: 1184px;
     margin: 0 auto 40px;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    display: flex;
+}
+
+.recipebox img{
+    width: 610px;
+    overflow: hidden;
 }
 
 .leftbox{
@@ -163,7 +203,7 @@ nav a{
 
 .rightbox{
     width: 374px;
-    margin: auto 70px;
+    margin-left: 230px;
 }
 
 .gotorecipe a{
@@ -177,9 +217,13 @@ nav a{
     text-align: center;
 }
 
+.gotorecipe a:hover{
+    color: #635B55;
+}
+
 #recommended{
     text-align: center;
-    margin-bottom: 100px;
+    margin-bottom: 200px;
 }
 
 #recommended h1{
@@ -195,6 +239,13 @@ nav a{
     font-size: 30px;
     font-family: "Hiragino Kakugothic";
     font-weight: lighter;
+}
+
+#recommended h3{
+    color: #635B55;
+    font-size: 35px;
+    font-family: "Avenir";
+    font-weight: 500;
 }
 
 #recommended p{
@@ -214,9 +265,44 @@ nav a{
     border-color: #F5AC67;
     border-width: 3px;
     font-size: 20px;
-    width: 326px;
+    width: 325px;
     margin: 0 auto;
     text-align: center;
+}
+
+.shop a:hover{
+    color: #fff;
+    background-color: #F5AC67;
+}
+
+.shop p{
+    font-size: 17px !important;
+}
+
+.shopbox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.shop img{
+    width: 327px;
+    border-radius: 50%;
+    margin-top: 60px;
+}
+
+.moreshop a{
+    display: block;
+    text-decoration: none;
+    background-color: #F5AC67;
+    color: #ffffff;
+    font-size: 30px;
+    width: 325px;
+    margin: 0 auto;
+}
+
+.moreshop a:hover{
+    color: #635B55;
 }
 
 .sns{
@@ -232,10 +318,49 @@ nav a{
     margin-bottom: 30px
 }
 
-.sns img{
+.twitter img{
     margin-right: 40px;
     margin-left: 40px;
     margin-bottom: 20px;
+    width: 100px;
+    transition-duration: 0.5s;
+}
+
+.twitter:hover img{
+    transform: scale(1.2);
+    transition-duration: 0.5s;
+}
+
+.instagram img{
+    margin-right: 40px;
+    margin-left: 40px;
+    margin-bottom: 20px;
+    width: 100px;
+    transition-duration: 0.5s;
+}
+
+.instagram:hover img{
+    transform: scale(1.2);
+    transition-duration: 0.5s;
+}
+
+.facebook img{
+    margin-right: 40px;
+    margin-left: 40px;
+    margin-bottom: 20px;
+    width: 100px;
+    transition-duration: 0.5s;
+}
+
+.facebook:hover img{
+    transform: scale(1.2);
+    transition-duration: 0.5s;
+}
+
+.snsbox{
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 footer{
@@ -248,4 +373,29 @@ footer p{
     font-family: "Avenir";
     font-size: 32px;
     font-weight: 300;
+}
+
+.fuwatAnime {
+ -webkit-animation-fill-mode:both;
+ -ms-animation-fill-mode:both;
+ animation-fill-mode:both;
+ -webkit-animation-duration:1.5s;
+ -ms-animation-duration:1.5s;
+ animation-duration:1.5s;
+ -webkit-animation-name: fuwatAnime;
+ -ms-animation-name: fuwatAnime;
+ animation-name: fuwatAnime;
+ visibility: visible !important;
+}
+@-webkit-keyframes fuwatAnime {
+ 0% { opacity: 0; -webkit-transform: translateY(-20px); }
+ 100% { opacity: 1; -webkit-transform: translateY(0); }
+}
+@keyframes fuwatAnime {
+ 0% { opacity: 0; -webkit-transform: translateY(-20px); -ms-transform: translateY(-20px); transform: translateY(-20px); }
+ 100% { opacity: 1; -webkit-transform: translateY(0); -ms-transform: translateY(0); transform: translateY(0); }
+}
+
+@media screen and (max-width:479px){
+    
 }
