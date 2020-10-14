@@ -12,24 +12,25 @@ section{
     display: block;
 }
 
-#header h1{
-    color: #fff;
-    font-size: 150px;
+header h1{
+    color: #FBF9F8;
+    font-size: 100px;
     font-family: "Colonna MT";
     font-weight: normal;
     margin: 30px auto;
 }
 
-#header p{
-    color: #fff;
+header p{
+    color: #FBF9F8;
     margin-bottom: 80px;
     font-family: "Hiragino Gothic";
-    font-size: 30px;
+    font-size: 20px;
 }
 
-#header{
+header{
     background-image: url(images/main.JPG);
     background-size: cover;
+    background-position: center;
     border-style: none;
     overflow: hidden;
     width: 100%;
@@ -38,8 +39,8 @@ section{
 
 
 .logo img{
-    width: 400px;
-    margin: 100px auto;
+    width: 300px;
+    margin: 130px auto 30px;
 }
 
 #nav ul{
@@ -57,6 +58,7 @@ nav a{
     text-align: center;
     color: #635B55; 
     transition-duration: 0.5s;
+    font-size: 14px;
 }
 
 nav a:hover{
@@ -86,16 +88,16 @@ nav a:hover{
 #message h2{
     font-family: "Hiragino Kakugothic";
     font-weight: normal;
-    font-size: 60px;
+    font-size: 40px;
     text-align: center;
-    margin: 40px auto 30px;
+    margin: 70px auto 30px;
     color: #635B55;
 }
 
 #message p{
-    font-size: 35px;
+    font-size: 20px;
     text-align: center;
-    margin: 50px auto 40px;
+    margin: 20px auto 70px;
     color: #635B55;
 }
 
@@ -107,7 +109,7 @@ nav a:hover{
 
 #trivia h1{
     color: #635B55;
-    font-size: 90px;
+    font-size: 70px;
     font-family: "Avenir";
     font-weight: normal;
     margin: 0px auto;
@@ -115,7 +117,7 @@ nav a:hover{
 
 #trivia h2{
     color: #635B55;
-    font-size: 30px;
+    font-size: 20px;
     font-family: "Hiragino Kakugothic";
     font-weight: lighter;
 }
@@ -123,7 +125,7 @@ nav a:hover{
 #trivia p{
     color: #635B55;
     font-family: "Hiragino Kakugothic";
-    font-size: 30px;
+    font-size: 20px;
     font-weight: normal;
     margin-top: 40px;
     margin-bottom: 70px;
@@ -135,7 +137,7 @@ nav a:hover{
 
 #recipes h1{
     color: #635B55;
-    font-size: 90px;
+    font-size: 70px;
     font-family: "Avenir";
     font-weight: normal;
     margin: 0px auto;
@@ -144,7 +146,7 @@ nav a:hover{
 
 #recipes h2{
     color: #635B55;
-    font-size: 30px;
+    font-size: 20px;
     font-family: "Hiragino Kakugothic";
     font-weight: lighter;
     text-align: center;
@@ -152,23 +154,23 @@ nav a:hover{
 
 #recipes h3{
     color: #635B55;
-    font-size: 55px;
+    font-size: 25px;
     font-family: "Avenir";
-    font-weight: 400;
+    font-weight: 500;
 }
 
 #recipes h4{
     color: #D65151;
     font-family: "Hiragino Kakugothic";
-    font-size: 20px;
+    font-size: 13px;
 }
 
 #recipes p{
     color: #635B55;
     font-family: "Hiragino Kakugothic";
-    font-size: 30px;
+    font-size: 20px;
     font-weight: normal;
-    margin-top: 40px;
+    margin-top: 30px;
     margin-bottom: 100px;
     text-align: center;
 }
@@ -176,34 +178,34 @@ nav a:hover{
 .recipebox p{
     color: #635B55;
     font-family: "Hiragino Kakugothic";
-    font-size: 23px !important;
+    font-size: 16px !important;
     font-weight: normal !important;
     text-align: left !important;
-    margin-bottom: 50px !important;
+    margin-bottom: 20px !important;
 }
 
 .recipebox{
     background-color: #FBF9F8;
-    width: 1184px;
-    margin: 0 auto 40px;
+    width: 800px;
+    margin: 0 auto 60px;
     padding-top: 30px;
     padding-bottom: 30px;
     display: flex;
 }
 
 .recipebox img{
-    width: 610px;
+    width: 300px;
     overflow: hidden;
 }
 
 .leftbox{
-    width: 374px;
-    margin: auto 70px;
+    width: 300px;
+    margin: auto 50px;
 }
 
 .rightbox{
-    width: 374px;
-    margin-left: 230px;
+    width: 300px;
+    margin: auto 50px;
 }
 
 .gotorecipe a{
@@ -211,10 +213,11 @@ nav a:hover{
     text-decoration: none;
     color: #FFFFFF;
     background-color: #F5AC67;
-    font-size: 30px;
-    width: 374px;
+    font-size: 16px;
+    width: 300px;
     margin: 0 auto;
     text-align: center;
+    padding: 8px 0px;
 }
 
 .gotorecipe a:hover{
@@ -228,7 +231,7 @@ nav a:hover{
 
 #recommended h1{
     color: #635B55;
-    font-size: 90px;
+    font-size: 70px;
     font-family: "Avenir";
     font-weight: normal;
     margin: 0px auto;
@@ -236,22 +239,24 @@ nav a:hover{
 
 #recommended h2{
     color: #635B55;
-    font-size: 30px;
+    font-size: 20px;
     font-family: "Hiragino Kakugothic";
     font-weight: lighter;
 }
 
 #recommended h3{
     color: #635B55;
-    font-size: 35px;
+    font-size: 30px;
     font-family: "Avenir";
     font-weight: 500;
+    margin-top: 70px;
+    margin-bottom: 30px;
 }
 
 #recommended p{
     color: #635B55;
     font-family: "Hiragino Kakugothic";
-    font-size: 30px;
+    font-size: 20px;
     font-weight: normal;
     margin-top: 40px;
 }
@@ -264,10 +269,11 @@ nav a:hover{
     border-style: solid;
     border-color: #F5AC67;
     border-width: 3px;
-    font-size: 20px;
-    width: 325px;
+    font-size: 16px;
+    width: 250px;
     margin: 0 auto;
     text-align: center;
+    padding: 8px 0px;
 }
 
 .shop a:hover{
@@ -276,7 +282,8 @@ nav a:hover{
 }
 
 .shop p{
-    font-size: 17px !important;
+    font-size: 16px !important;
+    margin: 50px auto !important;
 }
 
 .shopbox{
@@ -286,18 +293,21 @@ nav a:hover{
 }
 
 .shop img{
-    width: 327px;
+    width: 250px;
     border-radius: 50%;
-    margin-top: 60px;
+    margin-top: 100px;
+    margin-bottom: 50px;
 }
+
 
 .moreshop a{
     display: block;
     text-decoration: none;
     background-color: #F5AC67;
     color: #ffffff;
-    font-size: 30px;
-    width: 325px;
+    font-size: 16px;
+    padding: 8px 0;
+    width: 250px;
     margin: 0 auto;
 }
 
@@ -313,7 +323,7 @@ nav a:hover{
 .sns p{
     color: #635B55;
     font-family: "Hiragino Kakugothic";
-    font-size: 30px;
+    font-size: 16px;
     margin-top: 25px;
     margin-bottom: 30px
 }
@@ -322,7 +332,7 @@ nav a:hover{
     margin-right: 40px;
     margin-left: 40px;
     margin-bottom: 20px;
-    width: 100px;
+    width: 50px;
     transition-duration: 0.5s;
 }
 
@@ -335,7 +345,7 @@ nav a:hover{
     margin-right: 40px;
     margin-left: 40px;
     margin-bottom: 20px;
-    width: 100px;
+    width: 50px;
     transition-duration: 0.5s;
 }
 
@@ -348,7 +358,7 @@ nav a:hover{
     margin-right: 40px;
     margin-left: 40px;
     margin-bottom: 20px;
-    width: 100px;
+    width: 50px;
     transition-duration: 0.5s;
 }
 
@@ -371,7 +381,7 @@ footer{
 footer p{
     color: #635B55;
     font-family: "Avenir";
-    font-size: 32px;
+    font-size: 20px;
     font-weight: 300;
 }
 
@@ -398,4 +408,175 @@ footer p{
 
 @media screen and (max-width:479px){
     
+    section{
+        width: 100%;
+    }
+
+    header h1{
+        font-size: 60px;
+    }
+    
+    header p{
+        font-size: 20px;
+    }
+    
+    .logo img{
+        width: 120px;
+    }
+    
+    nav img{
+        width: 50px;
+    }
+    
+    nav a{
+        font-size: 3px;
+    }
+    
+    #nav ul li{
+        margin: 10px 20px;
+    }
+    
+    #message{
+        margin: 50px auto 70px;
+    }
+    
+    #message h2{
+        font-size: 15px;
+        margin: 30px auto 10px;
+    }
+    
+    #message p{
+        font-size: 10px;
+        margin: 10px auto 30px;
+    }
+    
+    #trivia{
+        margin-bottom: 100px;
+    }
+    
+    #trivia h1{
+        font-size: 25px;
+    }
+    
+    #trivia h2{
+        font-size: 8px;
+    }
+    
+    #trivia p{
+        font-size: 8px;
+        margin-top: 20px;
+        margin-bottom: 35px;
+    }
+    
+    #recipes{
+        margin-bottom: 100px;
+    }
+    
+    #recipes h1{
+        font-size: 25px;
+    }
+    
+    #recipes h2{
+        font-size: 8px;
+    }
+    
+    #recipes h3{
+        font-size: 18px;
+    }
+    
+    #recipes h4{
+        font-size: 6px;
+    }
+    
+    #recipes p{
+        font-size: 8px;
+    }
+    
+    .recipebox{
+        width: 75%;
+        flex-wrap: wrap; 
+    }
+    
+    .recipebox p{
+        font-size: 6px !important;
+    }
+    
+    .recipebox a{
+        width: 180px;
+        font-size: 6px;
+    }
+    
+    .recipebox img{
+        width: 200px;
+        margin: 30px auto 0;
+    }
+    
+    .leftbox{
+        width: 75%;
+    }
+    
+    .rightbox{
+        width: 75%;
+    }
+    
+    #recommended{
+        margin-bottom: 100px;
+    }
+    
+    #recommended h1{
+        font-size: 25px;
+    }
+    
+    #recommended h2{
+        font-size: 8px;
+    }
+    
+    #recommended h3{
+        font-size: 18px;
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+    
+    #recommended p{
+        font-size: 8px;
+    }
+    
+    .shop p{
+        font-size: 8px !important;
+        margin: 20px auto !important;
+    }
+    
+    .shop a{
+        width: 120px;
+        font-size: 5px;
+    }
+    
+    .shop img{
+        width: 120px;
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+    
+    .shopbox{
+       flex-wrap: wrap; 
+       display: flex;
+       flex-direction: column;
+    }
+    
+    .moreshop a{
+        width: 120px;
+        font-size: 5px;
+    }
+    .sns p{
+        font-size: 5px;
+    }
+    
+    .sns img{
+        width: 30px;
+        margin: 0 20px 10px;
+    }
+    
+    footer p{
+        font-size: 5px;
+    }
 }
