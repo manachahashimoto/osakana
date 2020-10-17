@@ -17,14 +17,16 @@ header h1{
     font-size: 120px;
     font-family: "Colonna MT";
     font-weight: normal;
-    margin: 30px auto;
+    margin: 20px auto;
+    text-shadow: 1px 1px 2px #635B55;
 }
 
 header p{
     color: #FBF9F8;
-    margin-bottom: 80px;
+    margin-bottom: 60px;
     font-family: "Hiragino Gothic";
     font-size: 20px;
+    text-shadow: 1px 1px 2px #635B55;
 }
 
 header{
@@ -40,7 +42,7 @@ header{
 
 .logo img{
     width: 500px;
-    margin: 130px auto 30px;
+    margin: 100px auto 30px;
 }
 
 #nav ul{
