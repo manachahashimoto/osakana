@@ -135,6 +135,7 @@
                    <h2>Recommended</h2>
                    <h3>おすすめのお店</h3>
                    <p>お店で食べるならステーキ？ハンバーグ？<br>いやいやお魚のおいしいお店もたくさんあるんです！<br>一歩踏み出してみればそこで味わえるご飯に感動すること間違いなし。<br>さあ新たな味を試してみよう！</p>
+                   
             <div class="shopbox">
                     <div class="shop">
                        <div class="shopintro">
@@ -165,6 +166,45 @@
 　　　　　　　　　<div class="moreshop">
 　　　　　　　　　    <a>もっと見る</a>
 　　　　　　　　　</div>
+　　　　　　　　　
+　　　　      <div class="shopbox">
+                    <div class="shop">
+                       <div class="shopintro">
+                            <h4>MK Cafe</h4>
+                            <p>ハンバーガー屋さんだけどお店の売りはなんと焼いたサバを挟んだサババーガー！いろんな味付けをされたサバはスライスしたオニオンと相性抜群</p>
+                            <a href="https://mk-cafe.storeinfo.jp/">公式サイト<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#F5AC67" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><g fill="none" fill-rule="evenodd"><path d="M18 14v5a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8c0-1.1.9-2 2-2h5M15 3h6v6M10 14L20.2 3.8"/></g></svg></a>
+                       </div>
+                        <img src="images/mk.JPG">
+                    </div>
+                    <div class="shop">
+                       <div class="shopintro">
+                           <h4>KUMADA</h4>
+                           <p>焼き魚は苦手だけどお刺身なら！という人におすすめしたいサーモン丼専門店。サーモンは国産、お米は北海道産というこだわり抜かれた丼ぶりを食べてみては？</p>
+                           <a href="https://wolfgangpack-ikebukuro.owst.jp/">公式サイト<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#F5AC67" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><g fill="none" fill-rule="evenodd"><path d="M18 14v5a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8c0-1.1.9-2 2-2h5M15 3h6v6M10 14L20.2 3.8"/></g></svg></a>
+                       </div>
+                        <img src="images/kumada.jpg">
+                    </div>
+                    <div class="shop">
+                      <div class="shopintro">
+                           <h4>Zauo</h4>
+                           <p>店内で釣りを体験できるという新しい形のレストラン。自分で釣った魚をその場で調理してくれるからいつもの何百倍も美味しい！楽しい！</p>
+                           <a href="https://www.zauo.com/">公式サイト<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#F5AC67" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><g fill="none" fill-rule="evenodd"><path d="M18 14v5a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8c0-1.1.9-2 2-2h5M15 3h6v6M10 14L20.2 3.8"/></g></svg></a>
+                      </div>
+                           <img src="images/zauo.jpg">
+                    </div>
+            </div>
+　　　　　　　　　
+　　　　　　　　　<script>
+             $(function(){
+	$('.shopbox:not(.shopbox:first-of-type)').css('display','none');//一番上の要素以外を非表示
+	$('.moreshop').nextAll('.more').css('display','none');//ボタンを非表示
+	$('.moreshop').on('click', function() {
+		$(this).css('display','none');//押したボタンを非表示
+		$(this).next('.shopbox').slideDown('fast');
+		$(this).nextAll('.moreshop:first').css('display','block'); //次のボタンを表示
+	});
+});
+               </script>
           
            </section>
            

@@ -445,15 +445,18 @@ footer p{
     }
 
     header h1{
-        font-size: 60px;
+        font-size: 40px;
+        margin: auto;
     }
     
     header p{
-        font-size: 20px;
+        font-size: 10px;
+        margin: 10px auto 30px;
     }
     
     .logo img{
-        width: 180px;
+        width: 120px;
+        margin: 20px auto 0;
     }
     
     nav img{
